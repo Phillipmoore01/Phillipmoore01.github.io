@@ -1,3 +1,10 @@
-<?php
-  <h1>Phillip moore site</h1>
-?>
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PHP Test</title>
+    </head>
+    <body>
+        <?php echo '<p>Hello World</p>'; ?>
+    </body>
+</html>
