@@ -1,14 +1,18 @@
 ul{
     /*Removes bullet points and default padding and margins*/
+ position: fixed;
+ top: 0;
+ width: 100%;
  list-style-type: none;
  margin: 0;
  padding: 0;   
  overflow: hidden;
- background-color: black;
+ background-color: #333;
 }
 
 li{
     float: left;
+    border-right: 1px solid #bbb;
 }
 
 li a{
@@ -17,9 +21,29 @@ li a{
     text-align: center;
     padding: 8px;
     text-decoration: none;
-   /* background-color: black; */
 }
 
 li a:hover{
     background-color: #111;
+}
+
+h1{
+    font-size: 70px;
+    text-align: center;
+    color: #0A3B1b;
+    font-style: oblique;
+    font-family: 'Arial Narrow';
+}
+
+h2{
+    text-align: center;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+p{
+    text-align: center;
+    font-weight: bold;
 }
