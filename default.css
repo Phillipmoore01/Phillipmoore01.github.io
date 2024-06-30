@@ -47,8 +47,10 @@ p{
     font-weight: bold;
 }
 .Hbox{
-    width:300px;
+    width:600px;
     padding-top:5px;
+    margin-left: auto;
+    margin-right: auto;
     border-style:solid;
     border-color:#0A3B1b;
     border-width:1px;
@@ -69,6 +71,11 @@ p{
   .container {
     padding: 2px 8px;
   }
+
+  .image-wrapper img{
+    width: 100%;
+    height: auto;
+    }
 
 .class::after{
     content: '\200b'
