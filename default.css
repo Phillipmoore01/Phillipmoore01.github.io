@@ -10,6 +10,16 @@ ol{
  background-color: #333;
 }
 
+ul{
+ bottom: 0;
+ width: 100%;
+ list-style-type: none;
+ margin: 0;
+ padding: 0;   
+ overflow: hidden;
+ background-color: #333;
+}
+
 li{
     float: left;
     border-right: 1px solid #bbb;
