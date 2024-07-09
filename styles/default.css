@@ -18,11 +18,13 @@ ul{
  padding: 0;   
  overflow: hidden;
  background-color: #333;
+ text-align: center;
 }
 
 li{
     float: left;
     border-right: 1px solid #bbb;
+    text-align: center;
 }
 
 li a{
@@ -44,12 +46,15 @@ h1{
     font-style: oblique;
     font-family: 'Arial Narrow';
 }
+.buffer{
+    color: antiquewhite;
+}
 
 h2{
     text-align: center;
 }
 body{
-    background-color: antiquewhite;
+    background-color: #faebd7;
 }
 
 p{
@@ -92,7 +97,3 @@ p{
     margin-left: auto;
     margin-right: auto;
     }
-
-.class::after{
-    content: '\200b'
-}

@@ -7,6 +7,8 @@
 <link rel="stylesheet" href="styles/default.css">
 </head>
 
+<!-- Next step replace the NavBar-->
+
 <body>
 	<section>
         <ol>
@@ -16,7 +18,9 @@
             <li><a href = "index.html">About</a></li>
         </ol>
     </section>
-
+    <section>
+      <h1 class="buffer">HELLO IM UPHERE</h1>
+      </section>
     <section>
         <h1>Phillip Moore</h1>
         <h2>Junior Backend Developer & Junior Video Game Developer</h2>
@@ -26,48 +30,51 @@
             Throughout my academic journey, I've immersed myself in the world of coding, honing my skills in various languages and technologies.
              I'm ready to embark on this exciting journey in the tech industry. Let's build something incredible together!</p>
     </section>
-    <section>
         <!-- --------------- -->
         <h3>Projects</h3>
-        <div class="card" style="width: 20rem;">
-                <img class = "card-img-top" src="images/ForestBackground.png" alt="card-img-cap">
-            <div class="card-body">
-                <h5 class = "card-title"><b>RESTful site</b></h5>
-                <p class="card-text">Semester Long Project for Advanced software engineering</p>
-                <a href="https://github.com/Phillipmoore01/RestfulWebService" class="btn btn-primary">Go somewhere</a>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-auto d-flex justify-content-between">
+              <div class="card" style="width: 20rem;">
+                  <img class = "card-img-top" src="images/ForestBackground.png" alt="card-img-cap">
+                <div class="card-body">
+                  <h5 class = "card-title"><b>RESTful site</b></h5>
+                  <p class="card-text">Semester Long Project for Advanced software engineering</p>
+                  <a href="https://github.com/Phillipmoore01/RestfulWebService" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
             </div>
-        </div>
         <!-- --------------- -->
-        <div class="after">
-            <p>...</p>
-
-        </div>
-        <a href = "https://github.com/Phillipmoore01/FlightSite">
-        <div class="card" style="width: 20rem;">
-            <img class = "card-img-top" src="images/airplaneBan.jpg" alt="card-img-cap">
-            <div class="card-body">
-                <h5 class="card-title"><b>FligthSite</b></h5>
-                <p class="card-text">This web service project utilizes React to create a responsive 
+            <a href = "https://github.com/Phillipmoore01/FlightSite">
+              <div class="col-sm-auto d-flex justify-content-between">
+              <div class="card" style="width: 20rem;">
+                <img class = "card-img-top" src="images/airplaneBan.jpg" alt="card-img-cap">
+                <div class="card-body">
+                  <h5 class="card-title"><b>FligthSite</b></h5>
+                    <p class="card-text">This web service project utilizes React to create a responsive 
                     and dynamic user interface. It fetches data from a mock API and 
                     displays it in a structured format, demonstrating how to handle 
-                    asynchronous data fetching and rendering in React.</p>
+                    asynchronous data fetching and rendering in React.
+                    </p>
+                </div>
+              </div>
             </div>
-        </div>
-        </a>
+            </a>
         <!--         -->
-        <div class="after">
-            <p>...</p>
-        </div>
-
-        <div class="card" style="width: 20rem;">
-            <img class="card-img-top" src="images/fantasy-video-game-banner-vector.jpg" alt="card-img-cap">
-            <div class="card-body">
-                <h4 class="card-title"><b>Save the Princess</b></h4>
-                <p class=" card-text">Repository for a turn Based RPG video Game Semester long Project for GameDev Spring 2024</p>
+        <div class="col-sm-auto d-flex justify-content-between">
+            <div class="card" style="width: 20rem;">
+              <img class="card-img-top" src="images/fantasy-video-game-banner-vector.jpg" alt="card-img-cap">
+                <div class="card-body">
+                  <h4 class="card-title"><b>Save the Princess</b></h4>
+                  <p class=" card-text">Repository for a turn Based RPG video Game Semester long Project for GameDev Spring 2024</p>
+                </div>
+                <a href="https://github.com/Phillipmoore01/SaveThePrincess">Game Link</a>
             </div>
-            <a href="https://github.com/Phillipmoore01/SaveThePrincess">Game Link</a>
+          </div>
         </div>
+      </div>
         <!--    -->
+        
     </section>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
@@ -87,33 +94,3 @@
 
 </html>
 
-
-
-<!--- for adding in row aligned cards
-<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"/>
-
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-sm-6 d-flex justify-content-center">
-      <div class="card" style="width: 20rem;>
-        <img class="card-img-top" src="..." alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Heading 1</h5>
-          <p class="card-text">some text</p>
-          <a href="#" class="btn btn-primary">a button</a>
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-6 d-flex justify-content-center">
-      <div class="card" style="width: 20rem;>
-        <img class="card-img-top" src="..." alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Heading 2</h5>
-          <p class="card-text">some text</p>
-          <a href="#" class="btn btn-primary">a button</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
--->
