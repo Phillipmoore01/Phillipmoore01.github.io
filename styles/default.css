@@ -97,3 +97,68 @@ p{
     margin-left: auto;
     margin-right: auto;
     }
+
+/* Sticky footer styles */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+/* Navbar styles */
+.navbar {
+    text-align: center;
+}
+
+.navbar-brand {
+    margin: 0 auto;
+}
+
+.navbar-nav {
+    margin: 0 auto;
+}
+
+/* Footer styles */
+.footer {
+    flex-shrink: 0;
+    background-color: #343a40;
+    color: white;
+    padding: 1rem 0;
+    margin-top: auto;
+    text-align: center;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #17a2b8;
+    text-decoration: none;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.social-links {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.copyright {
+    text-align: center;
+}
