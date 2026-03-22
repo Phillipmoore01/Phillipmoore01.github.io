@@ -48,8 +48,7 @@ function App() {
           <h2>About</h2>
           <p>
             I enjoy building practical web apps and game systems. This portfolio is
-            being migrated to React + TypeScript to better demonstrate UI, architecture,
-            and frontend engineering skills.
+            being migrated to React + TypeScript so please be patient with me. Thanks!
           </p>
           <p className="panel-crosslink">
             <a href="about.html">Read more on the About page</a>
@@ -58,7 +57,7 @@ function App() {
 
         <Footer
           className="motion-fade-in motion-delay-3"
-          email="phillipmoore01@users.noreply.github.com"
+          email="phillipmoore3102@gmail.com.com"
           githubUrl="https://github.com/Phillipmoore01"
         />
       </main>
