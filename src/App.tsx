@@ -57,7 +57,7 @@ function App() {
 
         <Footer
           className="motion-fade-in motion-delay-3"
-          email="phillipmoore3102@gmail.com.com"
+          email="phillipmoore3102@gmail.com"
           githubUrl="https://github.com/Phillipmoore01"
         />
       </main>
