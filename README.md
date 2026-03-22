@@ -1,4 +1,4 @@
 # Phillipmoore01.github.io
-  * This site is a firts attempt at a portfolio site using only HTML, CSS, and some PHP
+  * This is a portfolio site for Phillip Moore
   * Hosted on Github at URL https://phillipmoore01.github.io/
-## Status: Unfinished
+## Status: Work-In Progress

@@ -23,7 +23,7 @@ function App() {
         <Hero
           className="motion-fade-in"
           title="Phillip Moore"
-          tagline="Systems Developer"
+          tagline="Systems Developer and Engineer"
         />
 
         <section id="projects" className="panel motion-fade-in motion-delay-1">
