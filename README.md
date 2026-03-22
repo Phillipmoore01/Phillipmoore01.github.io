@@ -10,5 +10,5 @@
     * Event-Based Image Processor
   * CI/CD Pipeline Project
     * Production-Ready Deployment Pipeline
-  * AI-Powered API Feature
+  * AI-Powered API Feature/Application
     * Smart Task Suggestions
