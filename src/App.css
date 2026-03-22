@@ -1,0 +1,44 @@
+.site {
+  width: min(960px, 100%);
+  margin: 0 auto;
+  padding: 0 1rem 2rem;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.brand {
+  color: var(--text-h);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+nav a {
+  color: var(--text);
+  text-decoration: none;
+  margin-left: 1rem;
+}
+
+.hero {
+  padding: 3rem 0 2rem;
+}
+
+.hero p {
+  max-width: 60ch;
+}
+
+.panel {
+  border-top: 1px solid var(--border);
+  padding: 1.5rem 0;
+  text-align: left;
+}
+
+.panel ul {
+  margin: 0;
+  padding-left: 1.2rem;
+}
