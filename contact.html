@@ -36,19 +36,25 @@
     <main>
         <div class="container mt-4">
             <h1>Contact Me</h1>
-            <form>
+            <!-- Replace YOUR_FORMSPREE_FORM_ID with your Formspree form id (same as VITE_FORMSPREE_FORM_ID in .env for the React app). -->
+            <form action="https://formspree.io/f/YOUR_FORMSPREE_FORM_ID" method="POST">
+                <input type="hidden" name="_subject" value="Portfolio contact">
                 <div class="form-group">
                     <label for="contactName">Name</label>
-                    <input type="text" class="form-control" id="contactName" placeholder="Your name">
+                    <input type="text" class="form-control" id="contactName" name="name" placeholder="Your name" required>
                 </div>
                 <div class="form-group">
                     <label for="contactEmail">Email address</label>
-                    <input type="email" class="form-control" id="contactEmail" aria-describedby="emailHelp" placeholder="Enter email">
+                    <input type="email" class="form-control" id="contactEmail" name="email" aria-describedby="emailHelp" placeholder="Enter email" required>
                     <small id="emailHelp" class="form-text text-muted">I will only use your email to reply to your message.</small>
                 </div>
                 <div class="form-group">
                     <label for="contactMessage">Message</label>
-                    <textarea class="form-control" id="contactMessage" rows="5" placeholder="How can I help?"></textarea>
+                    <textarea class="form-control" id="contactMessage" name="message" rows="5" placeholder="How can I help?" required></textarea>
+                </div>
+                <div class="form-group" style="position:absolute;left:-10000px;" aria-hidden="true">
+                    <label for="contactGotcha">Do not fill</label>
+                    <input type="text" id="contactGotcha" name="_gotcha" tabindex="-1" autocomplete="off">
                 </div>
                 <button type="submit" class="btn btn-primary">Submit</button>
             </form>

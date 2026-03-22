@@ -2,10 +2,41 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <script>
+      (function () {
+        var k = 'pm_theme'
+        try {
+          var s = localStorage.getItem(k)
+          var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches
+          var t =
+            s === 'light' || s === 'dark' ? s : prefersDark ? 'dark' : 'light'
+          document.documentElement.setAttribute('data-theme', t)
+        } catch (e) {
+          document.documentElement.setAttribute('data-theme', 'light')
+        }
+      })()
+    </script>
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="canonical" href="https://phillipmoore01.github.io/" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
+      content="Portfolio of Phillip Moore, a junior full stack developer and game developer."
+    />
+    <meta name="theme-color" content="#0f172a" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
+    <meta property="og:title" content="Phillip Moore | Software Developer Portfolio" />
+    <meta
+      property="og:description"
+      content="Portfolio of Phillip Moore, a junior full stack developer and game developer."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://phillipmoore01.github.io/" />
+    <meta property="og:locale" content="en_US" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Phillip Moore | Software Developer Portfolio" />
+    <meta
+      name="twitter:description"
       content="Portfolio of Phillip Moore, a junior full stack developer and game developer."
     />
     <title>Phillip Moore | Software Developer Portfolio</title>
